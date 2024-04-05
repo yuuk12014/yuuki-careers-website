@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Management System</title>
+    <style>
+      ul li {
+        list-style-type: none;
+        border-bottom: 1px solid #090;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+      }
+    </style>
+  </head>
+<body>
+  <h1>Contact Management System</h1>
+  <p>Welcome to the contact management system. Here you can add, edit, and delete contacts.</p>
+
+  <h2>Contacts</h2>
+  <div>
+    {% for contact in contacts %}
+      {% include 'contactitem.html' %}
+    {% endfor %}
+  </div>
+</body>
+</html>
