@@ -5,14 +5,14 @@ app = Flask(__name__)
 CONTACTS = [{
   'id': 1,
   'FName': 'John',
-  'LName': 'Doe',
+  'LName': 'Co',
   'Emailaddress': 'johndoe@gmail.com',
   'Address': '123 Main St, Anytown, USA'
 },
 {
   'id': 2,
   'FName': 'Jim',
-  'LName': 'Doe',
+  'LName': 'King',
   'Emailaddress': 'johndoe@gmail.com',
   'Address': '123 Main St, Anytown, USA'
 },
